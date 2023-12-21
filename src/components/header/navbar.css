@@ -1,0 +1,12 @@
+.bg-full-frame , .container{
+    background: rgb(41, 35, 35) ;
+    color: #fff;
+    width: 100vw !important;
+    
+}
+.logo-span{
+    color: rgb(31, 112, 31);
+}
+.btn{
+    background-color: rgb(31, 112, 31) !important;
+}

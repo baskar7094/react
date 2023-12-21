@@ -1,0 +1,26 @@
+
+body{
+    width: 100vw;
+    height: auto;
+    color: #000 !important;
+    position: relative;
+}
+.flex{
+display: grid !important;
+grid-template-columns: auto auto auto !important;
+justify-content: space-between;
+gap: 30px;
+width: 100%;
+height: max-content;
+}
+
+@media all and (max-width:540px) {
+    .flex{
+        display: grid !important;
+        grid-template-columns: auto  !important;
+        justify-content: space-between;
+        gap: 10px;
+        width: 250px;
+        height: max-content;
+        }
+}

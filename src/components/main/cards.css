@@ -1,0 +1,31 @@
+img{
+    width: 250px !important;
+    height: 250px !important;
+background: url(../../assets/home.webp);
+border: none;
+background-position: center;
+object-fit: cover;
+object-position: center;
+background-size: cover;
+margin: 0 auto;
+
+row-gap: 10px   ;
+}
+
+.flex{
+    display: grid !important;
+    grid-template-columns: auto auto auto ;
+}
+
+.card{
+
+border: none ;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+}
+body{
+    margin-bottom: 100px !important;
+    background-color: rgb(122, 153, 153) !important;
+}

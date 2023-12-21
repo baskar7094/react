@@ -1,0 +1,15 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+    width: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.bg-hero{
+    background: url(/src//assets/hero.webp) !important;
+object-fit: cover !important;
+height: 100vh;
+width: 100vw;
+background-size: cover !important;
+background-position: center !important;
+}
